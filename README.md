@@ -1,11 +1,9 @@
 ## Alien Invasion Minecraft Mod (Forge/1.7.10)
 
 The Alien Invasion mod creates a large scale invasion event in Minecraft. It adds new
-resources, items, machinery, weapons and mobs to the overworld. Ever wanted to shoot
-down a UFO with a guided missile system and investigate the crash site to learn alien
-technology? Well now you can!
+resources, items, machinery, weapons and mobs to the game.
 
-The mod also adds a progression path to the game. Once you have developed the right
+The mod also adds a loose progression path to the game. Once you have developed the right
 kinds of tech and obtained the necessary information, you can travel to the aliens'
 homeworld (and beyond), discovering entirely new world types and creatures.
 
