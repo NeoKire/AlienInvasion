@@ -1,0 +1,16 @@
+# eclipse
+.classpath
+.project
+.settings
+.workspace
+bin
+
+#gradle
+.gradle
+build
+
+#runtime
+run
+
+#mac
+.DS_Store

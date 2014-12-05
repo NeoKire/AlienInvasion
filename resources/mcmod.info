@@ -1,0 +1,12 @@
+{
+  "modListVersion": 2,
+  "modList": [{
+    "modid": "alieninvasion",
+    "name": "Alien Invasion",
+    "description": "The aliens are invading! Defeat them, steal their technology and travel to their homeworld!",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "authorList": [ "Polycode" ],
+    "credits": "Created by Polycode"
+  }]
+}
