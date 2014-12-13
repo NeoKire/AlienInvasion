@@ -23,5 +23,7 @@ public class AlienInvasion {
 	public void preInit(FMLPreInitializationEvent e) {
 		BlockRegistry.registerBlocks();
 		ItemRegistry.registerItems();
+		CraftingManager.addCraftingRecipes();
+		CraftingManager.addSmeltingRecipes();
 	}
 }
