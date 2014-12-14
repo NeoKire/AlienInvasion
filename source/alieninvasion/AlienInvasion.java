@@ -4,6 +4,7 @@ import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.Mod.Instance;
 import cpw.mods.fml.common.SidedProxy;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
 @Mod(modid=AlienInvasion.MODID, version=AlienInvasion.VERSION)
@@ -25,5 +26,11 @@ public class AlienInvasion {
 		ItemRegistry.registerItems();
 		CraftingManager.addCraftingRecipes();
 		CraftingManager.addSmeltingRecipes();
+		MobRegistry.registerEntities();
+	}
+	
+	@EventHandler
+	public void init(FMLInitializationEvent e) {
+		proxy.registerRenderers();
 	}
 }

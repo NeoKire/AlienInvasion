@@ -11,3 +11,5 @@ tile.blockVidesaiStone.name=Videsai Stone
 tile.blockVidesaiLog.name=Videsai Log
 tile.blockZarkOre.name=Zark Ore
 tile.blockVidesaiWater.name=Videsai Water
+
+entity.entityVidesaiInvader.name=Videsai Invader
