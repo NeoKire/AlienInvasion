@@ -1,4 +1,4 @@
-package alieninvasion.items;
+package alieninvasion.item;
 
 import alieninvasion.AlienInvasion;
 import net.minecraft.creativetab.CreativeTabs;

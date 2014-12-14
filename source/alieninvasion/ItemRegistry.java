@@ -1,13 +1,13 @@
 package alieninvasion;
 
 import net.minecraft.item.Item;
-import alieninvasion.items.Item600THzBeam;
-import alieninvasion.items.ItemHeavyImpactRifle;
-import alieninvasion.items.ItemImpactRifle;
-import alieninvasion.items.ItemLDAC;
-import alieninvasion.items.ItemLDLC;
-import alieninvasion.items.ItemLaserRifle;
-import alieninvasion.items.ItemSpaceRevolver;
+import alieninvasion.item.Item600THzBeam;
+import alieninvasion.item.ItemHeavyImpactRifle;
+import alieninvasion.item.ItemImpactRifle;
+import alieninvasion.item.ItemLDAC;
+import alieninvasion.item.ItemLDLC;
+import alieninvasion.item.ItemLaserRifle;
+import alieninvasion.item.ItemSpaceRevolver;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 public class ItemRegistry {

@@ -5,3 +5,9 @@ item.impactRifle.name=Impact Rifle
 item.heavyImpactRifle.name=Heavy Impact Rifle
 item.lDLC.name=LDL-C
 item.lDAC.name=LDA-C
+
+tile.blockVidesaiOre.name=Videsai Ore
+tile.blockVidesaiStone.name=Videsai Stone
+tile.blockVidesaiLog.name=Videsai Log
+tile.blockZarkOre.name=Zark Ore
+tile.blockVidesaiWater.name=Videsai Water
