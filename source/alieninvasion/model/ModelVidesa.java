@@ -3,10 +3,8 @@ package alieninvasion.model;
 import net.minecraft.client.model.ModelBase;
 import net.minecraft.client.model.ModelRenderer;
 import net.minecraft.entity.Entity;
-import net.minecraftforge.client.model.obj.Face;
-import scala.tools.nsc.doc.base.comment.Body;
 
-public class ModelVidesa<ModelFirst> extends ModelBase
+public class ModelVidesa extends ModelBase
 {
   //fields
     ModelRenderer Body;
@@ -26,7 +24,7 @@ public class ModelVidesa<ModelFirst> extends ModelBase
     ModelRenderer Face;
     ModelRenderer Head_Jaw;
   
-  public void Real()
+  public ModelVidesa()
   {
     textureWidth = 64;
     textureHeight = 32;

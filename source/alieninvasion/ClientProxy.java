@@ -1,6 +1,5 @@
 package alieninvasion;
 
-import net.minecraft.client.model.ModelBase;
 import alieninvasion.client.renderer.entity.RenderVidesaiInvader;
 import alieninvasion.entity.monster.EntityVidesaiInvader;
 import alieninvasion.model.ModelVidesa;
