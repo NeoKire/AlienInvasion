@@ -3,10 +3,8 @@ package alieninvasion.model;
 import net.minecraft.client.model.ModelBase;
 import net.minecraft.client.model.ModelRenderer;
 import net.minecraft.entity.Entity;
-import net.minecraftforge.client.model.obj.Face;
-import scala.tools.nsc.doc.base.comment.Body;
 
-public class ModelVidesa<ModelFirst> extends ModelBase
+public class ModelVidesa extends ModelBase
 {
   //fields
     ModelRenderer Body;
@@ -129,7 +127,7 @@ public class ModelVidesa<ModelFirst> extends ModelBase
       setRotation(Head_Jaw, 0F, 0F, 0F);
   }
   
-  public void render(Entity entity, float f, float f1, float f2, float f3, float f4, float f5)
+  public void render(float f, float f1, float f2, float f3, float f4, float f5, Entity entity)
   {
     super.render(entity, f, f1, f2, f3, f4, f5);
     setRotationAngles(f, f1, f2, f3, f4, f5, entity);
