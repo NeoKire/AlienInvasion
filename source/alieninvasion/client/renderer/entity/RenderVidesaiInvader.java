@@ -1,22 +1,31 @@
+
 package alieninvasion.client.renderer.entity;
 
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 import alieninvasion.AlienInvasion;
-import net.minecraft.client.model.ModelBiped;
-import net.minecraft.client.renderer.entity.RenderBiped;
+import alieninvasion.entity.monster.EntityVidesaiInvader;
+import net.minecraft.client.model.ModelBase;
+import net.minecraft.client.renderer.entity.RenderLiving;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.ResourceLocation;
 
-public class RenderVidesaiInvader extends RenderBiped {
-	
-	public static final ResourceLocation textureLocation = new ResourceLocation(AlienInvasion.MODID + ":textures/entities/videsai_invader.png");
-
-	public RenderVidesaiInvader(ModelBiped model, float shadowSize) {
-		super(model, shadowSize);
+@SideOnly(Side.CLIENT)
+public class RenderVidesaiInvader extends RenderLiving
+{
+	private static final ResourceLocation mobTextures = new ResourceLocation(AlienInvasion.MODID + ":textures/entities/First-Model-Real.png");
+	public RenderVidesaiInvader(ModelBase par1ModelBase, float par2)
+	{
+		super(par1ModelBase, par2);
 	}
 	
-	@Override
-	protected ResourceLocation getEntityTexture(Entity entity) {
-		return textureLocation;
+	protected ResourceLocation getEntityTexture(EntityVidesaiInvader par1EntityCow)
+	{
+		return mobTextures;
 	}
-
+	
+	protected ResourceLocation getEntityTexture(Entity par1Entity)
+	{
+		return this.getEntityTexture((EntityVidesaiInvader)par1Entity);
+	}
 }

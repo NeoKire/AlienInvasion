@@ -10,4 +10,4 @@ public class ItemSpaceRevolver extends Item {
 		setUnlocalizedName("spaceRevolver");
 		setTextureName(AlienInvasion.MODID + ":" + "SpaceRevolver");
 	}
-}
+}	
