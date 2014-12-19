@@ -24,7 +24,7 @@ public class ModelVidesa extends ModelBase
     ModelRenderer Face;
     ModelRenderer Head_Jaw;
   
-  public void Real()
+  public ModelVidesa()
   {
     textureWidth = 64;
     textureHeight = 32;
